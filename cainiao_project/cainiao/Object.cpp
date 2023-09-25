@@ -81,11 +81,11 @@ int jicheng()
 {
 	Rectangle rect;
 	rect.setHeight(10);
-	rect.setWidth(11.2);
+	rect.setWidth(11);
 
 	Triangle trian;
 	trian.setHeight(10);
-	trian.setWidth(11.2);
+	trian.setWidth(11);
 
 	cout << "继承的矩形为：" << rect.Area() << endl;
 	cout << "总计花费额为：" << rect.getCost(rect.Area()) << "\n" << endl;
