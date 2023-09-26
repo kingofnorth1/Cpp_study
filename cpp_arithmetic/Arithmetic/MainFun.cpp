@@ -1,15 +1,20 @@
 #include<iostream>
-using namespace std;
+//#include<opencv2/opencv.hpp>
+//#include<bzlib.h>
 
-void setNumber(int& num);
-void setAddress(int* num);
+using namespace std;
+int Test();
+int forLoop();
+int feibolaqie();
+int recur(int n);
+int tailRecur(int n,int ref);
+int fib(int n);
 
 int main() {
-	int num = 1;
-	setNumber(num);
-	cout << "值为：" << num << endl;
-
-	setAddress(&num);
-	cout << "地址值为：" << num << endl;
-	return 0;
+	Test();		//测试* 与 & 之间的参数区别
+	forLoop();	//1~100相加
+	feibolaqie(); //斐波那契数列
+	recur(5);	//递归函数
+	tailRecur(5, 1);	//尾递归函数
+	cout << fib(10) << endl;	//斐波那契数列递归方式
 }
