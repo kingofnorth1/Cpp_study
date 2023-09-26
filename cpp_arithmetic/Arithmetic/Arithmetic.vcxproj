@@ -134,11 +134,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="CppSTL.cpp" />
-=======
     <ClCompile Include="hello_algo_2.2.1.cpp" />
->>>>>>> 9c2d63019c3c186bd67ddd7ae8ab671a2d3d32af
     <ClCompile Include="MainFun.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
