@@ -18,7 +18,8 @@ int interface();
 int FileIO();
 int RamNewDelete();
 int Template();
-int threadFun();
+//int threadFun();
+int UseVector();
 
 struct Books
 {
@@ -46,6 +47,7 @@ int main()
 	//FileIO();		//读取与写入数据
 	//RamNewDelete();	//内存新增与删除
 	Template();		//模板类输出
-	threadFun();	//多线程输出
+	//threadFun();	//多线程输出
+	UseVector();	//vector向量变量存储
 }
 
