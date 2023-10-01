@@ -137,6 +137,7 @@
     <ClCompile Include="CppSTL.cpp" />
     <ClCompile Include="hello_algo_2.2.cpp" />
     <ClCompile Include="hello_algo_2.3.cpp" />
+    <ClCompile Include="hello_algo_4.1.cpp" />
     <ClCompile Include="MainFun.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
