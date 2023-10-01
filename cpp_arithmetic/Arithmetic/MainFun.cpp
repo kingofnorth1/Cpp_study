@@ -21,6 +21,7 @@ void logarithmic(int n);
 int linearLogRecur(int n);
 int factorialRecur(int n);
 int AccessTest();
+int LinkList();
 
 int main() {
 	Test();				//测试* 与 & 之间的参数区别
@@ -37,5 +38,6 @@ int main() {
 	cout << "线性对数阶值：" << linearLogRecur(10000) << endl;	//时间复杂度-线性对数阶
 	cout << "阶乘阶值：" << factorialRecur(10) << endl;	//时间复杂度-线性对数阶
 	AccessTest();		//分别说明指针数组和数组指针的区别
+	LinkList();			//链表列表
 
 }
