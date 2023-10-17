@@ -22,6 +22,12 @@
     <ClCompile Include="hello_algo_4.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Spdlog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_algo_10.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="源文件">

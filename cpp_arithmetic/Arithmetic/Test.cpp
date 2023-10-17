@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 void setNumber(int& num);
 void setAddress(int* num);
