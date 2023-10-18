@@ -4,7 +4,7 @@
     <ClCompile Include="CppSTL.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hello_algo_2.2.1.cpp">
+    <ClCompile Include="hello_algo_2.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MainFun.cpp">
@@ -13,6 +13,16 @@
     <ClCompile Include="Test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="hello_algo_2.3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_algo_4.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello_algo_4.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Spdlog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="源文件">

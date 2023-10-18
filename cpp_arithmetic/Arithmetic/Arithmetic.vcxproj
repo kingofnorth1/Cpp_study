@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>I:\software\opencv\opencv\build\include;I:\software\opencv\opencv\build\x64\vc16\lib;$(IncludePath)</IncludePath>
-    <LibraryPath>I:\software\opencv\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>I:\software\opencv\opencv\build\include;I:\software\opencv\opencv\build\x64\vc16\lib;C:\Program Files (x86)\spdlog\include;$(IncludePath)</IncludePath>
+    <LibraryPath>I:\software\opencv\opencv\build\x64\vc16\lib;C:\Program Files (x86)\spdlog\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,13 +108,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\spdlog\lib;$(ProjectDir);</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>I:\software\opencv\opencv\build\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>spdlogd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>I:\software\opencv\opencv\build\x64\vc16\lib;C:\Program Files (x86)\spdlog\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -135,8 +135,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CppSTL.cpp" />
-    <ClCompile Include="hello_algo_2.2.1.cpp" />
+    <ClCompile Include="hello_algo_2.2.cpp" />
+    <ClCompile Include="hello_algo_2.3.cpp" />
+    <ClCompile Include="hello_algo_4.1.cpp" />
+    <ClCompile Include="hello_algo_4.2.cpp" />
     <ClCompile Include="MainFun.cpp" />
+    <ClCompile Include="Spdlog.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
