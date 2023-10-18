@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9b78b20a-5ad8-40ae-91b5-ca757b1da8af}</ProjectGuid>
-    <RootNamespace>Arithmetic</RootNamespace>
+    <ProjectGuid>{70ae2c3a-c617-4be0-9a70-661b7b553bed}</ProjectGuid>
+    <RootNamespace>SpdLog</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Program Files (x86)\spdlog\include;C:\Program Files (x86)\spdlog\lib;I:\software\opencv\opencv\build\include;I:\software\opencv\opencv\build\x64\vc16\lib;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\spdlog\lib;I:\software\opencv\opencv\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>C:\Program Files (x86)\spdlog\include;C:\Program Files (x86)\spdlog\lib;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>C:\Program Files (x86)\spdlog\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,13 +108,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\spdlog\lib;I:\software\opencv\opencv\build\x64\vc16\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\spdlog\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>opencv_world480.lib;spdlogd.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Program Files (x86)\spdlog\lib;I:\software\opencv\opencv\build\x64\vc16\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files (x86)\spdlog\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>spdlogd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -134,15 +134,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="hello_algo_10.1.cpp" />
-    <ClCompile Include="CppSTL.cpp" />
-    <ClCompile Include="hello_algo_2.2.cpp" />
-    <ClCompile Include="hello_algo_2.3.cpp" />
-    <ClCompile Include="hello_algo_4.1.cpp" />
-    <ClCompile Include="hello_algo_4.2.cpp" />
-    <ClCompile Include="MainFun.cpp" />
-    <ClCompile Include="Spdlog.cpp" />
-    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="MainStudy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

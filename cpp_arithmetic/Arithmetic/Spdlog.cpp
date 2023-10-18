@@ -3,9 +3,10 @@
 //#include <spdlog/spdlog.h>
 //#include <spdlog/cfg/env.h>  // support for loading levels from the environment  variable
 //#include <spdlog/fmt/ostr.h> // support for user defined types
+//#include <opencv2/core/core.hpp> 
 //
 //using namespace std;
-////using namespace spdlog;
+//using namespace spdlog;
 //
 //int main()
 //{
