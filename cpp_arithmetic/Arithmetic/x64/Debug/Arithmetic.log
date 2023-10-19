@@ -1,3 +1,2 @@
-﻿  hello_algo_10.1.cpp
-I:\document\cpp_study\cpp_arithmetic\Arithmetic\hello_algo_10.1.cpp(14,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  Arithmetic.vcxproj -> I:\document\cpp_study\cpp_arithmetic\x64\Debug\Arithmetic.exe
+﻿  Test.cpp
+  Arithmetic.vcxproj -> E:\document\cpp_study\cpp_arithmetic\x64\Debug\Arithmetic.exe
