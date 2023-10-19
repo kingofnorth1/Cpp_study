@@ -1,2 +1,13 @@
-﻿  Test.cpp
-  Arithmetic.vcxproj -> E:\document\cpp_study\cpp_arithmetic\x64\Debug\Arithmetic.exe
+﻿  CppSTL.cpp
+  Spdlog.cpp
+  hello_algo_10.1.cpp
+I:\document\cpp_study\cpp_arithmetic\Arithmetic\hello_algo_10.1.cpp(14,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  LINK : 没有找到 I:\document\cpp_study\cpp_arithmetic\x64\Debug\Arithmetic.exe 或上一个增量链接没有生成它；正在执行完全链接
+hello_algo_2.2.obj : warning LNK4099: 未找到 PDB“”(使用“hello_algo_2.2.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+hello_algo_2.3.obj : warning LNK4099: 未找到 PDB“”(使用“hello_algo_2.3.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+hello_algo_4.1.obj : warning LNK4099: 未找到 PDB“”(使用“hello_algo_4.1.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+hello_algo_4.2.obj : warning LNK4099: 未找到 PDB“”(使用“hello_algo_4.2.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+MainFun.obj : warning LNK4099: 未找到 PDB“”(使用“MainFun.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+Test.obj : warning LNK4099: 未找到 PDB“”(使用“Test.obj”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  Arithmetic.vcxproj -> I:\document\cpp_study\cpp_arithmetic\x64\Debug\Arithmetic.exe
