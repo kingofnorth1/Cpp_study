@@ -18,7 +18,7 @@
     <ClCompile Include="MainWar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GradeBook.cpp">
+    <ClCompile Include="RomanNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
