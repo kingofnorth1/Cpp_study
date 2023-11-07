@@ -7,6 +7,7 @@ string intToRoman(int t1);
 long sumTwoSmallestNumbers(vector<int> numbers);
 long sumTwoSmallestNumbersSort(vector<int> numbers);
 bool valid_braces(std::string braces);
+vector<vector<int>> multiplication_table(int t1);
 
 int main() {
 	romanToInt("MDCLXVI");
@@ -15,5 +16,6 @@ int main() {
 	sumTwoSmallestNumbers(temp);			//通过定义firstMin和secondMin取得最小结果
 	sumTwoSmallestNumbersSort(temp);		//使用std::sort先进行排序，再将最小结果返回
 	cout << valid_braces("{}()") << endl;				//有效符号，{[()]}
+	multiplication_table(3);				//将int数转换为列表
 	return 1;
 }

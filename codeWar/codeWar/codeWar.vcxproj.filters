@@ -24,5 +24,11 @@
     <ClCompile Include="sumTwo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ValidBrace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
