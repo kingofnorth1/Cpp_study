@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+
 vector<vector<int>> multiplication_table(int n) {
     vector<vector<int>> index;
     for (int i = 1; i <= n; i++) {

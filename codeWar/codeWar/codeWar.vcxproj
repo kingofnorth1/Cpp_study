@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MultiTable.cpp" />
+    <ClCompile Include="PickPeaks.cpp" />
     <ClCompile Include="RomanNumber.cpp" />
     <ClCompile Include="MainWar.cpp" />
     <ClCompile Include="sumTwo.cpp" />
