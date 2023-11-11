@@ -1,31 +1,35 @@
 #include <vector>
 #include<iostream>
+#include<string>
 using namespace std;
 
-struct PeakData {
-	vector<int> pos, peaks;
-};
-
-#include <vector>
-
-PeakData pick_peaks(const std::vector<int>& v) {
-    PeakData result;
-    for (int i = 1; i < v.size() - 1; i++) {
-        if (v[i] > v[i - 1] && v[i] > v[i + 1] && i != v.size() - 1) {
-            result.pos.push_back(i);
-            result.peaks.push_back(v[i]);
+vector<int> pick_peaks(vector<int> v) {
+    vector<int> peaks;
+    for (int i = 0; i < v.size(); i++) {
+        if (i == 0 || i == v.size() - 1) {
+            continue;
         }
-        if (v[i] > v[i - 1] && v[i] == v[i + 1]) {
-            for (int j = i; j < v.size() - 1; j++) {
-                if (v[j] < v[j + 1]) {
-                    return result;
-                }
+        else if ((v[i] > v[i - 1]) && (v[i] > v[i + 1])) {
+            peaks.push_back(v[i]);
+        }
+        else if ((v[i] > v[i - 1]) && (v[i] == v[i + 1])) {
+            for (int j = i; j < v.size(); j++) {
                 if (v[j] > v[j + 1]) {
-                    result.pos.push_back(i);
-                    result.peaks.push_back(v[i]);
+                    peaks.push_back(v[i]);
+                }
+                if (v[j] < v[j + 1]) {
+                    i = j-1;
+                    break;
                 }
             }
         }
     }
-    return result;
+    string str = "(";
+    for (int i = 0; i < peaks.size(); i++) {
+        string temp = to_string(i);
+        //str = str + temp + ", ";
+        i != peaks.size()-1 ? str = str + temp + ", " : str = str + temp;
+    }
+    cout << str << ")" << endl;
+    return peaks;
 }
