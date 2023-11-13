@@ -9,7 +9,7 @@ using namespace cv;
 int MatImage() {
 	std::string image_path = samples::findFile("D://pictures//test.png");
 	Mat A = imread(image_path, IMREAD_COLOR);
-	Mat D(A, Rect(300, 300, 300, 300));
+	Mat D(A, Rect(150, 150, 150, 150));
 	imshow("œ‘ æÕº∆¨£∫", D);
 	int k = waitKey(0);
 	Mat E = A(Range::all(), Range(1, 3));
