@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include "codeWar23_11.cpp"
 
 using namespace std;
 int romanToInt(string t1);
@@ -9,6 +10,7 @@ long sumTwoSmallestNumbersSort(vector<int> numbers);
 bool valid_braces(std::string braces);
 vector<vector<int>> multiplication_table(int t1);
 vector<int> pick_peaks(vector<int> v);
+int nthFibo(int t1);
 
 int main() {
 	romanToInt("MDCLXVI");
@@ -19,5 +21,9 @@ int main() {
 	cout << valid_braces("{}()") << endl;				//有效符号，{[()]}
 	multiplication_table(3);				//将int数转换为列表
 	pick_peaks(temp);						//选择数组的峰值
+    nthFibo(4);
+
+    codeWar23_11 codewar;
+    codewar.output();
 	return 1;
 }
