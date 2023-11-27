@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include "codeWar23_11.cpp"
+#include "BayCar.cpp"
 
 using namespace std;
 int romanToInt(string t1);
@@ -25,5 +26,10 @@ int main() {
 
     codeWar23_11 codewar;
     codewar.output();
-	return 1;
+
+    BuyCar buycar;
+    buycar.nbMonths(12000, 8000, 1000, 1.5);
+
+
+    return 1;
 }

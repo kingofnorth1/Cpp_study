@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BayCar.cpp" />
     <ClCompile Include="codeWar23_11.cpp" />
     <ClCompile Include="MultiTable.cpp" />
     <ClCompile Include="opencvTest.cpp" />
