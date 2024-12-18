@@ -12,6 +12,7 @@ bool valid_braces(std::string braces);
 vector<vector<int>> multiplication_table(int t1);
 vector<int> pick_peaks(vector<int> v);
 int nthFibo(int t1);
+int memory();
 
 int main() {
 	romanToInt("MDCLXVI");
@@ -30,6 +31,6 @@ int main() {
     BuyCar buycar;
     buycar.nbMonths(12000, 8000, 1000, 1.5);
 
-
+    memory();
     return 1;
 }

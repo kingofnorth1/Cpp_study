@@ -42,6 +42,9 @@
     <ClCompile Include="BayCar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
